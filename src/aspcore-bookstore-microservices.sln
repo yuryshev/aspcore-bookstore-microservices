@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthenticationService.API", "Services\AuthenticationService\AuthenticationService.API\AuthenticationService.API.csproj", "{D325E6A1-695A-4DFC-B1E8-F956B88B075B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService.API", "Services\CatalogService\CatalogService.API\CatalogService.API.csproj", "{0CF25D0B-ADC1-480D-8B4F-9955505B9FA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatalogService.API", "Services\CatalogService\CatalogService.API\CatalogService.API.csproj", "{0CF25D0B-ADC1-480D-8B4F-9955505B9FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationService.Tests", "Services\AuthenticationService\AuthenticationService.Tests\AuthenticationService.Tests.csproj", "{BAB21A7C-8391-49A1-9B5B-D7CC0202D294}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0CF25D0B-ADC1-480D-8B4F-9955505B9FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CF25D0B-ADC1-480D-8B4F-9955505B9FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CF25D0B-ADC1-480D-8B4F-9955505B9FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAB21A7C-8391-49A1-9B5B-D7CC0202D294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAB21A7C-8391-49A1-9B5B-D7CC0202D294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAB21A7C-8391-49A1-9B5B-D7CC0202D294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAB21A7C-8391-49A1-9B5B-D7CC0202D294}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

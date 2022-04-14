@@ -1,4 +1,9 @@
+using AuthenticationService.API.Services;
+using AuthenticationService.API.Services.Interfaces;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddScoped<IAuthenticationJwtService, AuthenticationJwtService>();
 
 builder.Services.AddControllers();
 
